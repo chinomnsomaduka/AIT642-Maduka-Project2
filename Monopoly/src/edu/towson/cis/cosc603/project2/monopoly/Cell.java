@@ -4,7 +4,7 @@ package edu.towson.cis.cosc603.project2.monopoly;
 /**
  * The Class Cell.
  */
-public abstract class Cell {
+public abstract class Cell implements IOwnable {
 	
 	/** The available. */
 	private boolean available = true;
